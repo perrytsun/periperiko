@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Comforter&family=EB+Garamond:ital@1&family=Klee+One:wght@400;600&family=PT+Serif:ital,wght@0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,500;1,400;1,500&family=Yomogi&family=Zen+Kurenaido&display=swap');
+
+.tests-container {
+    width: 50%;
+    margin: 10px auto;
+  }
+
+  h1 {
+    font-family: 'Klee One', cursive;
+  }
+  h3 {
+    width: 100px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .test {
+    border-top: solid #00acee;
+    margin-top: 10px;
+    padding-top: 20px;
+  }
+  .main-box {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .time {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  p {
+    text-align: center; 
+  }
