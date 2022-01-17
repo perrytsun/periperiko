@@ -2,7 +2,7 @@ class CommentsController < ApplicationController
     before_action :authenticate_user!
   
     def create
-      tweet = TeSt.find(params[:teSt_id])
+      test = Test.find(params[:teSt_id])
       comment = teSt.comments.build(comment_params) 
       comment.user_id = current_user.id
       if comment.save
